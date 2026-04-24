@@ -1,0 +1,124 @@
+# ============================================
+# ANDROID STUDIO / INTELLIJ IDEA
+# ============================================
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# ============================================
+# GRADLE
+# ============================================
+.gradle/
+build/
+*/build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# ============================================
+# BUILD OUTPUTS
+# ============================================
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+/build/
+/app/build/
+/captures
+/out
+
+# ============================================
+# SIGNING & KEYSTORES (⚠️ CRITICAL)
+# ============================================
+*.jks
+*.keystore
+*.pk8
+*.pem
+*.p12
+signing.properties
+keystore.properties
+release.properties
+
+# ============================================
+# API KEYS & SECRETS (⚠️ CRITICAL)
+# ============================================
+secrets.properties
+secrets.xml
+local.properties
+*.env
+.env
+.env.*
+apikeys.properties
+google_maps_api.xml
+
+# ============================================
+# GOOGLE SERVICES (⚠️ Contains API keys)
+# ============================================
+google-services.json
+GoogleService-Info.plist
+
+# ============================================
+# FIREBASE
+# ============================================
+**/firebase_credentials.json
+firebase-debug.log
+
+# ============================================
+# NATIVE / NDK / CMAKE
+# ============================================
+.externalNativeBuild/
+.cxx/
+obj/
+
+# ============================================
+# PROGUARD
+# ============================================
+proguard/
+/app/proguard-rules.pro.bak
+
+# ============================================
+# LOGS & CRASH REPORTS
+# ============================================
+*.log
+crash-report-*.txt
+hs_err_pid*
+
+# ============================================
+# OS SPECIFIC FILES
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+
+# Windows
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================
+# MISC
+# ============================================
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+freeline.py
+freeline/
+freeline_project_description.json
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
