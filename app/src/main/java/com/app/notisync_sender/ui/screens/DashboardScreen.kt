@@ -401,13 +401,13 @@ fun DashboardScreen(
                 onActionClick = onRequestCallLogPermission
             )
 
-            PermissionCard(
-                icon = Icons.Default.Accessibility,
-                title = "Accessibility Service",
-                description = "Required for keyboard text capture (controlled by receiver)",
-                isEnabled = checkAccessibilityEnabled(viewModel),
-                onActionClick = viewModel::openAccessibilitySettings
-            )
+//            PermissionCard(
+//                icon = Icons.Default.Accessibility,
+//                title = "Accessibility Service",
+//                description = "Required for keyboard text capture (controlled by receiver)",
+//                isEnabled = checkAccessibilityEnabled(viewModel),
+//                onActionClick = viewModel::openAccessibilitySettings
+//            )
 
             PermissionCard(
                 icon = Icons.Default.NotificationsOff,
